@@ -1,0 +1,27 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
+}
+/* root-end */
+
+.main-content{
+    margin-top:30px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 10px;
+    background:var(--bg-white);
+}

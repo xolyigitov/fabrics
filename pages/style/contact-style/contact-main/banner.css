@@ -1,0 +1,146 @@
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+}
+/* banner-start */
+.banner {  
+    transform: translateY(180px);
+    width: 100%;
+    height: 297px;
+    background:var(--pink);
+    border-radius: 10px;
+}
+
+.banner-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.banner-item__left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.banner-item__title {
+    max-width: 342px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--MR);
+    font-size: 38px;
+    line-height: 57px;
+    text-transform: uppercase;
+}
+
+.banner-item__text {
+    padding-top: 20px;
+    color: var(--white);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner-item__right {
+    padding-top: 120px;
+}
+
+.banner-input {
+    max-width: 380px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background:var(--bg-white);
+}
+
+.banner-item__input-text {
+    padding-top: 17px;
+    max-width: 453px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--MR);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.banner-item__btn {
+    margin-top: 73px;
+    padding: 14px 50px;
+    border-radius: 4px;
+    background:var(--grey);
+    color:var(--white);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 231px;
+    width: 100%;
+    height: 50px;
+}
+
+/* main-end */
+.follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.follow-left {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.follow-right {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.follow-right__title {
+    color:var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 108px;
+    width: 100%;
+    height: 48px;
+}
+
+.left-btn {
+    margin-left:15px;
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 15px 24px;
+    border-radius: 4px;
+    background:var(--bg-white);
+    color: var(--grey);
+    font-family: var(--MR);
+    transition: all 500ms;
+}
+.left-btn:hover{
+    background:var(--pink);
+    color:var(--white);
+}
+
+.right-btn {
+    margin-left: 30px;
+    color:var(--grey);
+    padding: 15px;
+    height: 50px;
+    border-radius: 4px;
+    background:var(--bg-white);
+    transition: all 500ms;
+}
+.right-btn:hover{
+    background:var(--pink);
+    color:var(--white);
+}

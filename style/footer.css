@@ -1,0 +1,128 @@
+@import url(fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
+    --black: black;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    margin-top: -110px;
+    position: relative;
+}
+
+.footer-bg {
+    position: absolute;
+    width: 85%;
+    height: 575px;
+    border-radius: 0px 20px 0px 0px;
+    background: var(--bg-white);
+    z-index: -2;
+    left: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left__list {
+    padding-left: 113px;
+}
+
+.footer-link__title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-link {
+    padding-bottom: 20px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-icon {
+    padding-top: 30px;
+}
+
+.footer-icon__two {
+    padding-top: 30px;
+}
+
+.footer-center {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-center__link {
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-center__link:first-of-type {
+    color: var(--grey);
+    font-family: var(--MM);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.footer-right__text {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 144px;
+    width: 100%;
+    margin-right: 55px;
+}
+
+.footer-right__icon {
+    padding-top: 40px;
+    color: var(--black);
+    font-size: 46px;
+}
+
+.footer-map {
+    max-width: 724px;
+    border-radius: 10px;
+    margin-right: -157px;
+    height: 100%;
+    z-index: -1;
+}
+
+.footer-content__line {
+    transform: translateY(-140px);
+    margin-left: -120px;
+    width: 1px;
+    height: 575.754px;
+    background: var(--pink);
+}
+
+.footer-content__line-two {
+    margin: 72px 72px 0 72px;
+    width: 1px;
+    height: 358px;
+    opacity: 0.2;
+    background: var(--pink);
+}

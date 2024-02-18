@@ -1,0 +1,17 @@
+@import url(fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;   
+}
+
+.main {
+    margin-top: 107px;
+    margin-bottom: 100px;
+}
+
+

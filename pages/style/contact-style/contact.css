@@ -1,0 +1,237 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+input{
+    border-style: none;
+}
+/* root-end */
+.pre-nav__top {
+    width: 100%;
+    height: 184px;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-top__title {
+    margin-top: 37px;
+    color:var(--pink);
+    font-family: var(--MR);
+    font-size: 48px;
+    line-height: 72px;
+    /* 72px */
+    text-transform: uppercase;
+}
+
+.pre-top__link {
+    padding-right: 50px;
+    padding-left: 27px;
+    margin-top: 64px;
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.pre-top__input {
+    margin-top: 52px;
+    display: flex;
+    height: 40px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    border-radius: 4px;
+    background:var(--bg-white);
+}
+
+.pre-contact__title {
+    padding-top: 48px;
+    padding-left: 60px;
+    color:var(--grey);
+    font-family: var(--MS);
+    font-size: 20px;
+    line-height: 30px;
+    /* 30px */
+}
+
+.pre-contact__text {
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 111px;
+}
+
+.pre-top__icon {
+    height: 10px;
+    margin-left: 28px;
+    margin-top: 50px;
+}
+
+.icon {
+    padding: 10px 16px;
+    color: var(--pink);
+    font-size: 18px;
+    transition: all 500ms;
+}
+
+.icon:hover {
+    border-radius: 4px;
+    background: var(--pink);
+    color:var(--white);
+}
+
+.pre-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-nav__list-link {
+    color:  var(--grey);
+    text-align: right;
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 500ms;
+    position: relative;
+}
+
+.pre-nav__list-link:hover{
+    color: var(--pink);
+}
+
+.pre-nav__list-link:hover.pre-nav__list-link::after {
+    width: 100%;
+}
+
+.pre-nav__list-link::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: var(--pink);
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all 500ms;
+}
+/* pre-nav end */
+/* nav-start*/
+.nav{
+    
+    margin-top: 35px;
+    width: 100%;
+    height: 52px;
+    border-radius: 0px 0px 20px 0px;
+    background:var(--bg-white);
+}
+.nav-list{
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{   
+    color: var(--pink);
+    width: 16px;
+    height: 16px;  
+}
+.nav-list__link{
+    color: var(--grey);
+    font-family:var(--MR);
+    font-size: 12px;
+    line-height:18px; 
+    transition: all 500ms;
+}
+.nav-list__link:hover{
+    color:var(--pink);   
+}
+/* nav-end */
+.header-content{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.header-content__title{
+    color:var(--grey);
+    font-family:var(--MS);
+    font-size:48px;
+    line-height:72px; 
+    text-transform: uppercase;
+}
+
+.header-content__item{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.itme-map{
+    min-width: 570px;
+    width: 100%;
+    height: 325px;
+    padding: 10px;
+}
+.item-title{
+    color: var(--black);
+    font-family:var(--MS);
+    font-size: 24px;
+    line-height: 36px;
+}
+.item-min__title{
+    margin-top: 30px;
+    color:var(--grey);
+    font-family:var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+.item-icons{
+    display: flex;    
+    align-items: center;
+    margin-top: 55px;
+}
+.item-icon{
+    font-size: 25px;
+    color:var(--pink);
+}
+.item-icon__text{
+    padding-left: 15px;
+    color:#545155;
+    font-family:var(--MR);
+    font-size: 16px;
+    line-height:24px;
+}
+.item-icons__two{
+    margin-top: 80px;    
+}
+.item-two__icon{
+    font-size: 35px;
+    color: var(--pink);
+}
+.item-two__icon:last-of-type{
+    padding-left: 20px;
+}

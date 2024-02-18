@@ -1,0 +1,60 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+    --blue:#6495ed;
+}
+/* root end */
+.main-item__first{
+    margin-top: 30px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 10px;
+    background:var(--bg-white);
+}
+.item-first__title{
+    color:var(--pink);
+    font-family: var(--MS);
+    font-size: 24px;
+    line-height: 36px;
+}
+.item-first__min-title{
+    color:var(--grey);
+    font-family:var(--MS);
+    font-size: 16px;
+    line-height: 24px
+}
+.item-first__text{
+    color:var(--grey);
+    font-family:var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+/* main-item__second  */
+
+.main-item__text-first{ 
+    margin-top: 30px;  
+    margin-bottom: 30px; 
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 10px;
+    background:var(--bg-white);
+}

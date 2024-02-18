@@ -1,0 +1,134 @@
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+}
+
+.category-line{
+    transform: translateY(130px);
+    margin-left: 257px;
+    width: 1px;
+    height: 293.754px;
+    background:var(--pink);
+}
+.category-line__two{
+    margin-left: 150px;
+    margin-right: -150px;
+    width: 1px;
+    height: 433.754px;
+    background: var(--pink);
+}
+/* root-end */
+/* category */
+.category {
+    padding-right: 150px;
+    max-width: 1768px;
+    width: 100%;
+    height: 1000px;
+    border-radius: 20px 0px 0px 20px;
+    background: var(--bg-white);
+    margin-left: 150px;
+}
+
+.category-bg__title-two {
+    position: relative;
+    z-index: -1;
+}   
+
+.category-cup {
+    position: relative;
+}
+
+.category-cup__bigTitle {
+    text-align: center;
+    color:var(--white);
+    font-family: var(--SR);
+    font-size: 168px;
+    line-height: 150%;
+}
+
+.category-cup__miniTitle {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 195px;
+}
+
+.category-item {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-item__two {
+    margin-top: 20px;
+    display: flex;
+}
+
+.category-img {
+    padding-top: 10px;
+    padding-right: 15px;
+    transition: all 500ms;
+    max-width: 700px;
+    width: 100%;
+    height: 300px;
+}
+
+.category-img:hover {
+    color: var(--pink);
+}
+.category-item__first{
+    display: flex;
+    column-gap: 30px;
+}
+.category-item__img{
+    margin-bottom: -180px;
+    max-width: 350px;
+    height: 230px;
+}
+
+/* category-end */
+
+/* media start */
+@media(max-width:1750px){
+    .category-item__first{
+        display: flex;
+        justify-content: center;
+    }
+    .category-item__img{
+        margin-bottom: -250px;
+        max-width: 280px;
+        height: 180px;
+    }
+    .category-line{
+        transform: translateY(170px);
+        margin-left: 227px;
+        width: 1px;
+        height: 253.754px;
+        background:var(--pink);
+    }
+}
+@media(max-width:1408px){
+    .category-item__img{      
+        max-width: 250px;
+        height: 150px;
+    }
+    .category-line{
+        transform: translateY(180px);
+        margin-left: 227px;
+        width: 1px;
+        height: 233.754px;
+        background:var(--pink);
+    }
+}

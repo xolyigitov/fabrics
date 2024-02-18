@@ -1,0 +1,97 @@
+@import url(../fonts.css);
+
+:root{
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+    --blue:#6495ed;
+}
+/* alps-start */
+.alps {
+    margin-top: 50px;
+}
+.alps-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alps-item__one{
+    margin-left: 20px;
+}
+
+
+.alps-min__title{
+    opacity: 0.7;
+    color:var(--pink);
+    font-family:var(--MR);
+    font-size: 12px;
+    line-height:18px;
+}
+.alps-img {
+    max-width: 270px;
+    width: 100%;
+}
+
+.item-one__title {
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-one__min-title {
+    display: flex;
+    padding-top: 20px;
+}
+
+.min-title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item-one__price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.price-min__title{
+    padding-left: 5px;
+    color:var(--grey);
+    font-family:var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.3;
+}
+.item-one__purchase {
+    padding-left: 30px;  
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+.alps-icon {
+    color: var(--pink);
+}
+.alps-line {
+    margin: 24px 0px;
+    height: 1px;
+    background: var(--pink);
+    opacity: 0.4;
+}

@@ -1,0 +1,176 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --Montserrat-Regular: 'Montserrat-Regular';
+    --Montserrat-Medium: 'Montserrat-Medium';
+    --Montserrat-Light: 'Montserrat-Light';
+    --Montserrat-SemiBold: 'Montserrat-SemiBold';
+    --MarckScript-Regular: 'MarckScript-Regular';
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
+}
+
+.alps-icon {
+    color: var(--pink);
+
+}
+
+
+/* ***** Root end ***** */
+
+
+.alps {
+    margin-top: 250px;
+    margin-bottom: 113px;
+}
+.alps-korzina{
+    margin-top: 100px;
+}
+.alps-count__elps {
+    position: relative;
+}
+
+.alps-bg__title {
+    position: absolute;
+    top: -110px;
+    left: 350px;
+    z-index: -1;
+    text-align: center;
+    color: var(--pink);
+    font-family: var(--MarckScript-Regular);
+    font-size: 168px;
+    line-height: 252px;
+    opacity: 0.1;
+}
+
+.alps-big__title {
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--Montserrat-Regular);
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+.alps-item {
+    gap: 30px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alps-item__product{
+    gap: 30px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alps-img {
+    max-width: 320px;
+    width: 100%;
+}
+.alps-img__product{
+    max-width: 270px;
+    width: 100%;
+}
+.alps-item__square-izboranni{
+    max-width: 270px;
+    width: 100%;
+}
+.alps-square__mintitle {
+    padding-top: 24px;
+    color: var(--pink);
+    font-family: var(--Montserrat-Regular);
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+}
+
+.alps-square__title {
+    color: var(--pink);
+    font-family: var(--Montserrat-Regular);
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+
+.alps-square__mean {
+    color: var(--grey);
+    font-family: var(--Montserrat-SemiBold);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.alps-square__mean:nth-of-type(2) {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.alps-square__mean span {
+    color: var(--grey);
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.alps-square__price-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.alps-price-box__inbox {
+    display: flex;
+    align-items: center;
+}
+
+.alps-square__price {
+    margin-right: 20px;
+    color: var(--grey);
+    font-family: var(--Montserrat-Medium);
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.alps-square__sale {
+    color: var(--1, #545155);
+    text-align: right;
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.3;
+}
+
+.alps-square__purchase {
+    padding-left: 0px;
+    color: var(--pink);
+    font-family: var(--Montserrat-Regular);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.alps-line {
+    margin: 24px 0px;
+    height: 1px;
+    background: var(--pink);
+    opacity: 0.4;
+}
+
+
+/* alps-end */
